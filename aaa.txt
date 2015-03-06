@@ -1,1 +1,12 @@
-wwww
+[core]
+	bare = false
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+	logallrefupdates = true
+[credential helper=https://github.com/wangjgit/wjcs.git
+[remote "wjcs"]
+	url = https://github.com/wangjgit/wjcs.git
+	fetch = +refs/heads/*:refs/remotes/wjcs/*
+	puttykeyfile = C:\\ssh\\wangj_pri.ppk
